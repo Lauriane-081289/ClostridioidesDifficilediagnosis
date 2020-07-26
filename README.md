@@ -5,6 +5,8 @@ A sample readme to match database of this study
 To determine the proportion of patients who received a treatment for Clostridioides difficile infection (CDI) among those presenting a discordant Clostridioides difficile diagnostic assay and to identify patient characteristics associated with the decision to treat CDI. 
 
 ## List of variable 
+All variables that were used in our analyses
+
 - Gender
   - 1 = female
   - 0 = male 
@@ -120,3 +122,5 @@ To determine the proportion of patients who received a treatment for Clostridioi
 
 
 ## Variable removed from the original dataset 
+All variables that were masked to protect participant identity or that were removed from the original data set for simplification purpose (not used in the analysis)
+- 
