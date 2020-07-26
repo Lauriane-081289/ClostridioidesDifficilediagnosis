@@ -46,19 +46,48 @@ To determine the proportion of patients who received a treatment for Clostridioi
   - Patients with a body mass index ≥ 30 
   
 - Diarrhea at the time of testing (yes=1)
+  - patients with ≥ 3 unformed stools in 24 h. 
+
 - Imaging (yes=1)
+  - any abdominal imaging
+  
 - Delay between imaging and treatment introduction (days)
+  - negative value: imaging before treatment introduction
+  - positive value: imaging after treatment introduction 
+  
 - Delay between imaging and test result (days)
+  - negative value: imaging before test result introduction
+  - positive value: imaging after test result introduction
+  
 - Abdominal CT-scan (yes=1)
+
 - Indication for CT-scan: suspicion of colitis (yes=1)
+  - The suspicion of C. difficile colitis was the major indication for abdominal CT-scan
+  
 - Indication of CT-scan: suspicion of C. difficile complication (yes=1)
+  - The suspicion of C. difficile colitis complication (perforation, toxic megacolon, ileus) was the major indication for abdominal CT-scan
+  
 - Indication of CT-scan: suspicion of abdominal infection (yes=1)
+  - The suspicion of unspecified abdominal infection was the major indication for abdominal CT-scan
+  
 - Indicaton of CT-scan: suspicion of urological disease (yes=1)
+  - The suspicion of an urological disease was the major indication for abdominal CT-scan
+  
 - Indication of CT-scan: oncologic disease (yes=1)
+  - The suspicion of an oncologic disease was the major indication for abdominal CT-scan
+  
 - Indication of CT-scan: suspicion of osteo-articular disease (yes=1)
+  - The suspicion of an osteo-articular disease (arthritis, fracture) was the major indication for abdominal CT-scan
+  
 - CT-scan results: signs of colitis (yes=1)
+  - Any patient with signs of colitis visualized on abdominal CT-scan
+  
 - Rectosigmoidoscopy (yes=1)
+  - Patient who underwent rectosigmoidoscopy 
+  
 - Rectosigmoidoscopy with typical signs of C. difficile (yes=1)
+  - Patient who underwent rectosigmoidoscopy and who had typical C. difficile endoscopic lesions
+  
 - Severity criteria (yes=1)
 - Complicatied (yes=1)
 - Complicated (definition)
