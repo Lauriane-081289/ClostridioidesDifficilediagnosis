@@ -8,12 +8,25 @@ To determine the proportion of patients who received a treatment for Clostridioi
 - Gender
   - 1 = female
   - 0 = male 
-- Age:
+  
+- Age
+  - At the time of test prescription
+  
 - Patient's location 
+  - Patient's location at the time of test prescription. Inpatients are classified regarding hospital unit. 
+  
 - Outpatient
+  - Patients with ambulatory care at the time of test prescription
+  
 - Inpatient (yes=1)
+  - Hospitalized patients at the time of test prescription or patients in the emergency room. 
+  
 - Risk factor ≥ 65 yo (yes=1)
+  - Age of ≥ 65 years old at the time of test prescription
+  
 - Risk factor history of hospitalisation (yes=1)
+  - History of an hospitalisation of ≥ 48 h during 12weeks before prescription 
+  
 - Risk factor history of C.difficile (yes=1)
 - Risk factor history of antibiotic therapy (yes=1) 
 - Risk factor ongoing treatment of inhibitory proton pump inhibitor IPP (yes=1)
