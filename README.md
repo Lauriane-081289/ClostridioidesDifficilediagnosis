@@ -66,19 +66,19 @@ All variables that were used in our analyses
 - Indication for CT-scan: suspicion of colitis (yes=1)
   - The suspicion of C. difficile colitis was the major indication for abdominal CT-scan
   
-- Indication of CT-scan: suspicion of C. difficile complication (yes=1)
+- Indication for CT-scan: suspicion of C. difficile complication (yes=1)
   - The suspicion of C. difficile colitis complication (perforation, toxic megacolon, ileus) was the major indication for abdominal CT-scan
   
-- Indication of CT-scan: suspicion of abdominal infection (yes=1)
+- Indication for CT-scan: suspicion of abdominal infection (yes=1)
   - The suspicion of unspecified abdominal infection was the major indication for abdominal CT-scan
   
-- Indicaton of CT-scan: suspicion of urological disease (yes=1)
+- Indicaton for CT-scan: suspicion of urological disease (yes=1)
   - The suspicion of an urological disease was the major indication for abdominal CT-scan
   
-- Indication of CT-scan: oncologic disease (yes=1)
+- Indication for CT-scan: oncologic disease (yes=1)
   - The suspicion of an oncologic disease was the major indication for abdominal CT-scan
   
-- Indication of CT-scan: suspicion of osteo-articular disease (yes=1)
+- Indication for CT-scan: suspicion of osteo-articular disease (yes=1)
   - The suspicion of an osteo-articular disease (arthritis, fracture) was the major indication for abdominal CT-scan
   
 - CT-scan results: signs of colitis (yes=1)
@@ -123,4 +123,25 @@ All variables that were used in our analyses
 
 ## Variable removed from the original dataset 
 All variables that were masked to protect participant identity or that were removed from the original data set for simplification purpose (not used in the analysis)
-- 
+
+- Date of birth
+- Date of test prescription
+- Date of test result
+- Number of previous C. difficile testing before the start of the study
+- Number of test with POS/POS results
+- Number of test with NEG/- results
+- Number of test with POS/NEG results
+- Number of C. difficile culture 
+- History of C. difficile POS/NEG (yes=1)
+- History of C. difficile POS/POS (yes=1)
+- Risk factor history of an inflammatory bowel disease (yes=1)
+- Date of abdominal imaging
+- Indication for CT-scan (text)
+- Conclusion of CT-scan report (text)
+- Severity criterias details (1=WBC (white blood count) > 15 G/l, 2=serum creatinine > 133 µmol/L at the time of test prescription, 3=both, 4=none)
+- Date of treatment introduction
+- Date of treatment interruption  
+- Treatment duration of < 10 days (days)
+- Treatment duration of ≥ 10 days (days)
+- Reason for treatment duration < 10 days (text)
+- Presence of an alternative diagnosis in EMR (text) 
