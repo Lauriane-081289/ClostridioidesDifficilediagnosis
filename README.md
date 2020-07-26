@@ -25,15 +25,26 @@ To determine the proportion of patients who received a treatment for Clostridioi
   - Age of ≥ 65 years old at the time of test prescription
   
 - Risk factor history of hospitalisation (yes=1)
-  - History of an hospitalisation of ≥ 48 h during 12weeks before prescription 
+  - History of an hospitalisation of ≥ 48 hours in the past 12 weeks before test prescription 
   
 - Risk factor history of C.difficile (yes=1)
+  - All patients with a history of positive test results (NAAT+ or EIA+ or TC+) who had received a treatment for CDI 
+
 - Risk factor history of antibiotic therapy (yes=1) 
+  - History of any antibiotic treatment of ≥ 48 hours in the past 12 weeks before test prescription 
+  
 - Risk factor ongoing treatment of inhibitory proton pump inhibitor IPP (yes=1)
-- Risk factor inflammatory bowel disease (yes=1)
+  - Patients with any ongoing proton pump inhibitor treatment at the moment of test prescription 
+
 - Risk factor immunosuppression (yes=1)
+  - Patients with chemotherapy within the 60 days before test prescription; SOT (solid organ transplant) patients, HSCT (hematopoietic stem cell transplant) patients, ongoing steroid treatment 
+  
 - Risk factor chronic kidney disease (yes=1)
+  - Patient with a known chronic renal insuffisiency defined as a creatinine clearance < 60ml/min 
+  
 - Risk factor obesity (yes=1)
+  - Patients with a body mass index ≥ 30 
+  
 - Diarrhea at the time of testing (yes=1)
 - Imaging (yes=1)
 - Delay between imaging and treatment introduction (days)
