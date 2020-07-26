@@ -89,15 +89,34 @@ To determine the proportion of patients who received a treatment for Clostridioi
   - Patient who underwent rectosigmoidoscopy and who had typical C. difficile endoscopic lesions
   
 - Severity criteria (yes=1)
-- Complicatied (yes=1)
+  - Patient with WBC (white blood count) > 15 G/l or serum creatinine > 133 µmol/L at the time of test prescription
+  
+- Complicated (yes=1)
+  - Patient with ileus, toxic megacolon, septic shock or hypotension.
+  
 - Complicated (definition)
+  - Details of patient with ileus, toxic megacolon, septic shock or hypotension.
+  
 - Treatement (yes=1) 
+  - Patients were considered as treated for CDI if they fulfilled all of the following criteria: 1) an appropriate antibiotic treatment administered for CDI according to published guidelines5 8 14; 2) treatment introduced less than 48 h before the results of tests; 3) treatment duration of  ≥10 days or still under treatment at time of death; and 4) treatment prescribed with a written decision in the EMR for CDI treatment, or without an alternative indication for its prescription. Of note, as fecal microbiota transplantation is not performed at our centre, it was not retained in the outcome definition.
+
 - Delay between test result and treatment introduction (days)
+  - negative value: treatment introduction before test result 
+  - positive value: treatment introduction after test result
+  
 - Treatment duration (days)
+  - for treated patients (above definition "Treatment") AND uncomplete treatment duration   
+ 
 - Molecule
+  - For treated patients only (above definition "Treatment")
+  
 - Infectious disease specialist advice (yes=1)
-- Reason for incomplete treatment duration(death=1/other=0)
+  - An advice of an infectious disease specialist was made regarding treatment introduction, duration or interruption
+  
+- Reason for treatment duration < 10 days (death=1/other=0)
+  
 - Presence of an alternative diagnosis in EMR (yes=1) 
+  - Patient who underwent test for C. difficile for whom another finall diagnosis was retained 
 
 
 ## Variable removed from the original dataset 
